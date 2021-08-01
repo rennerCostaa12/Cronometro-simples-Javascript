@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+body{
+    background-color: rgb(235, 138, 12);
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 2rem;
+    margin: 2rem;
+    font-weight: 500;
+}
+button{
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    background: none;
+    color: white;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(235, 138, 12);
+    transition: 0.3s;
+}
